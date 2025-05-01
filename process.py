@@ -61,6 +61,9 @@ html_patterns = [
   </head>"""),
 (r"""<link rel="stylesheet" type="text/css" href="css/""", """<link rel="stylesheet" type="text/css" href="/css/"""),
 (r'" src="img/', '" src="/img/'),
+(r"""Foundation for Public Code is a chapter-based network of nonprofit organizations, with the parent""", """Foundation for Public Code is a chapter-based network of nonprofit organizations, with Foundation for Public Code Vereniging"""),
+(r"""\(vereeniging\)""", """"""),
+(r"""860102294.""", """860102294. Jacob van Lennepkade 520, Amsterdam, 1053MN, Netherlands. Phone: +31 638688454, email: info@publiccode.net"""),
 # contact us form
 # (r"""<div class="frame-211 frame">
 #           <div class="contact-form contact-1 mulish-bold-black-32px">Contact form</div>
